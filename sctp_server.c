@@ -60,7 +60,8 @@ int main(int argc, char *argv[])
     if(iret>0)
     {
         printf("%s\n", buf);
-		printf("新增打印信息\n");
+	printf("git 命令使用中\n");
+	printf("新增打印信息\n");
     }
 
     close(listenfd); /* close listenfd */
